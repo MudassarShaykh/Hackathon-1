@@ -11,7 +11,9 @@ form.addEventListener("submit" , (event : Event) => {
     const education =( document.querySelector("#education") as HTMLInputElement).value;
     const skills =( document.querySelector("#skills") as HTMLInputElement).value;
     const experience =( document.querySelector("#experience") as HTMLInputElement).value;
-
+    
+    const formDisplay = document.querySelector(".form-1") as HTMLFormElement
+    formDisplay.style.display = "none"
 
     const resumeHtml:string = `
 <h1 class="generated-heading">Generated Resume</h1>
