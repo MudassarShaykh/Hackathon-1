@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+* {
+    color: white;
+    font-family: "SUSE", sans-serif;
+}
+
+.top-heading {
+    color: rgb(61, 61, 78);
+    text-align: center;
+}
+.form-1 {
+    width: 60vw;
+    display: block;
+    background-color: rgb(61, 61, 78);
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    border-radius: 6px;
+    padding: 10px;
+
+}
+.personal-info {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;   
+}
+.personal-info h1 {
+    padding-left: 10px;
+}
+.label-username {
+    color: rgb(178, 176, 176);
+    font-weight: 500;
+    position: static;
+    padding-left: 10px
+}
+#username {
+    background-color: transparent;
+    outline: none;
+    width: 40%;
+    height: 20px;
+    border: none;
+    border-bottom: 2px solid white;
+    margin: 10px 0px 10px 10px;
+    font-size: 16px;
+    padding-left: 8px;
+}
+.label-name {
+    color: rgb(178, 176, 176);
+    font-weight: 500;
+    position: static;
+    padding-left: 10px
+}
+#name {
+    background-color: transparent;
+    outline: none;
+    width: 40%;
+    height: 20px;
+    border: none;
+    border-bottom: 2px solid white;
+    margin: 10px 0px 10px 10px;
+    font-size: 16px;
+    padding-left: 8px;
+    text-transform: capitalize;
+}
+.label-email {
+    color: rgb(178, 176, 176);
+    font-weight: 500;
+    position: static;
+    padding-left: 10px
+}
+
+#email {
+    background-color: transparent;
+    outline: none;
+    width: 40%;
+    height: 20px;
+    border: none;
+    border-bottom: 2px solid white;
+    margin: 10px 0px 10px 10px;
+    font-size: 16px;
+    padding-left: 8px;
+}
+.label-phone {
+    color: rgb(178, 176, 176);
+    font-weight: 500;
+    position: static;
+    padding-left: 10px
+}
+#phone {
+    background-color: transparent;
+    outline: none;
+    width: 40%;
+    height: 20px;
+    border: none;
+    border-bottom: 2px solid white;
+    margin: 10px 0px 10px 10px;
+    font-size: 16px;
+    padding-left: 8px;   
+}
+.education-info {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.education-info h1 {
+    padding-left: 10px;
+}
+
+.label-education {
+    color: rgb(178, 176, 176);
+    font-weight: 500;
+    position: absolute;
+    top: 70px;
+    left: 14px;
+    z-index: 10;
+}
+#education {
+    margin: 10px;
+    resize: none;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 6px;
+    outline: none;
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.skills-info {
+    display: flex;
+    flex-direction: column;
+    position: relative
+}
+.skills-info h1 {
+    padding-left: 10px;
+}
+
+.label-skills {
+    color: rgb(178, 176, 176);
+    font-weight: 500;
+    position: absolute;
+    top: 70px;
+    left: 14px;
+    z-index: 10;
+}
+#skills {
+    margin: 10px;
+    resize: none;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 6px;
+    outline: none;
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.experience-info {
+    display: flex;
+    flex-direction: column;
+    position: relative
+}
+.experience-info h1 {
+    padding-left: 10px;
+}
+
+.label-experience {
+    color: rgb(178, 176, 176);
+    font-weight: 500;
+    position: absolute;
+    top: 70px;
+    left: 14px;
+    z-index: 10;
+}
+#experience {
+    margin: 10px;
+    resize: none;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 6px;
+    outline: none;
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.submit-btn {
+    margin: 20px auto;
+    width: 16vw;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: rgb(61, 61, 78);
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: 2px 2px 2px 1px gray;
+}
+.submit-btn:active {
+    box-shadow: none;
+    background-color: rgb(197, 196, 196);
+}
+.submit-btn:hover {
+    cursor: pointer;
+}
+
+/* Generated Resume Css */
+
+.main-div {
+    width: 60vw;
+    background-color: rgb(61, 61, 78);
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    border-radius: 6px;
+    padding: 10px;   
+}
+.generated-heading {
+    color: rgb(61, 61, 78);
+    text-align: center;
+}
+fieldset {
+    width: calc(60vw - 50px);
+    border: 2px solid white;
+    border-radius: 6px;
+    margin: 10px 10px;
+}
+
+legend {
+    font-size: 35px;
+    font-weight: 600;
+    outline: none;
+}
+
+.generated-name {
+    text-transform: capitalize;
+    outline: none;
+}
+.generated-email {
+    outline: none;
+}
+.generated-phone {
+    outline: none;
+}
+.generated-education {
+    text-transform: capitalize;
+    white-space: pre-wrap;
+    line-height: 30px;
+    padding-left: 10px;
+    outline: none;
+    max-height: 200px;
+    overflow-y: auto;
+}
+.generated-skills {
+    text-transform: capitalize;
+    white-space: pre-wrap;
+    line-height: 30px;
+    padding-left: 10px;
+    outline: none;
+    max-height: 200px;
+    overflow-y: auto;
+}
+.generated-experience {
+    text-transform: capitalize;
+    white-space: pre-wrap;
+    line-height: 30px;
+    padding-left: 10px;
+    outline: none;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+/* edit and save changes button */
+
+.buttons-div {
+    margin: auto;
+    width: 60vw;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.edit-btn {
+    margin: 10px;
+    width: 6vw;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: rgb(61, 61, 78);
+    font-size: 16px;
+    font-weight: 700;
+    box-shadow: 2px 2px 2px 1px gray;
+}
+.edit-btn:active {
+    box-shadow: none;
+    background-color: rgb(197, 196, 196);
+}
+.edit-btn:hover {
+    cursor: pointer;
+}
+.save-btn {
+    margin: 10px;
+    width: 10vw;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: rgb(61, 61, 78);
+    font-size: 16px;
+    font-weight: 700;
+    box-shadow: 2px 2px 2px 1px gray;
+}
+.save-btn:active {
+    box-shadow: none;
+    background-color: rgb(197, 196, 196);
+}
+.save-btn:hover{
+    cursor: pointer;
+}
+
+/* shareable Link */
+.generated-link {
+    width: 60vw;
+    background-color: rgb(61, 61, 78);
+    display: flex;
+    margin: 10px auto;
+    flex-direction: column;
+    border-radius: 6px;
+    padding: 10px; 
+    display: none;
+}
+
+.download-btn {
+    margin: 10px;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: rgb(61, 61, 78);
+    font-size: 16px;
+    font-weight: 700;
+    box-shadow: 2px 2px 2px 1px gray 
+}
+.download-btn:active {
+    box-shadow: none;
+    background-color: rgb(197, 196, 196);
+}
+.download-btn:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .form-1 {
+        width: 90vw;
+        margin: auto;
+    }
+    .personal-info h1 {
+        font-size: 6vw;
+    } 
+    .education-info h1 {
+        font-size: 6vw;
+    } 
+    .skills-info h1 {
+        font-size: 6vw;
+    }
+    .skills-info h1 {
+        font-size: 6vw;
+    }
+    .submit-btn {
+        font-size: 4vw;
+        width: 40vw;
+    }
+    .main-div {
+        width: 90vw;
+    }
+    fieldset {
+        width: calc(90vw - 50px);
+        margin: auto;
+    }
+    legend {
+        font-size: 6vw; 
+    }
+    .label-name {
+        position: static;
+        padding-left: 3vw;
+        font-size: 4vw;
+    }
+    .label-email {
+        position: static;
+        padding-left: 3vw;
+        font-size: 4vw;
+    }
+    .label-phone {
+        position: static;
+        padding-left: 3vw;
+        font-size: 4vw;
+    }
+    .label-education {
+        position: static;
+        padding-left: 3vw;
+        font-size: 4vw;
+    }
+    .label-skills {
+        position: static;
+        padding-left: 3vw;
+        font-size: 4vw;
+    }
+    .label-experience {
+        position: static;
+        padding-left: 3vw;
+        font-size: 4vw;
+    }
+    .buttons-div {
+        margin: 0px 1vw 0px auto ;
+    }
+    .edit-btn {
+        font-size: 4vw;
+        width: 20vw;
+    }
+    .save-btn {
+        font-size: 4vw;
+        width: 30vw;
+    }
+
+}
