@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Editable Resume Builder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="top-heading">Editable Resume Builder</h1>
+    <form class="form-1">
+      <div class="personal-info">
+        <h1>Personal Information</h1>
+
+        <label for="name" class="label-name">Your Name</label>
+        <input type="text" id="name" required autocomplete="off" />
+
+        <label for="email" class="label-email">Your Email Address</label>
+        <input type="email" id="email" required autocomplete="off" />
+
+        <label for="phone" class="label-phone">Your Phone Number</label>
+        <input type="number" id="phone" required >
+      </div>
+      <div class="education-info">
+        <h1>Education</h1>
+        <label for="education" class="label-education">Your Education Information</label>
+        <textarea id="education" rows="4" required  ></textarea>
+      </div>
+      <div class="skills-info">
+        <h1>Skills</h1>
+        <label for="skills" class="label-skills">Your Skills</label>
+        <textarea id="skills" rows="4" required></textarea>
+      </div>
+      <div class="experience-info">
+        <h1>Experience</h1>
+        <label for="experience" class="label-experience">Your Work Experience</label>
+        <textarea id="experience" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="submit-btn">Generate Resume</button>
+    </form>
+    <div class="generated-resume">
+    </div>
+    <script src="script.js"></script>
+
+
+    <fieldset class="personal-div">
+      <legend contenteditable="true">Personal Information</legend>
+      <p class="generated-name" contenteditable="true">Name: ${name}</p>
+      <p contenteditable="true">Email: ${email}</p>
+      <p contenteditable="true">Phone Number: ${phone}</p>
+  </fieldset>
+  <fieldset class="education-div">
+      <legend contenteditable="true">Education</legend>
+      <p class="generated-education" contenteditable="true">${education}</p>
+  </fieldset>
+  <fieldset class="skills-div">
+      <legend contenteditable="true">Skills</legend>
+      <p class="generated-skills" contenteditable="true">${skills}</p>
+  </fieldset>
+  <fieldset class="experience-div">
+      <legend contenteditable="true">Experience</legend>
+      <p class="generated-experience" contenteditable="true">${experience}</p>
+  </fieldset>
+  </body>
+</html>
